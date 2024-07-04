@@ -1,0 +1,13 @@
+{
+  "name": "email-service",
+  "version": "1.0.0",
+  "description": "My Serverless service",
+  "main": "handler.js",
+  "scripts": {
+    "deploy": "serverless deploy",
+    "offline": "serverless offline"
+  },
+  "devDependencies": {
+    "serverless-offline": "^8.2.0"
+  }
+}

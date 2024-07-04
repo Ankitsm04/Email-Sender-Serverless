@@ -1,0 +1,20 @@
+org: donexinfotech
+
+app: email-api
+service: my-service
+
+provider:
+  name: aws
+  runtime: python3.8
+  environment:
+    SMTP_USERNAME: ankitsm38@gmail.com
+    SMTP_PASSWORD: grhp vjil zrat qnkt
+
+functions:
+  sendEmail:
+    handler: handler.send_email
+    events:
+      - http:
+          path: send-email
+          method: post
+
