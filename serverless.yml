@@ -1,5 +1,3 @@
-org: donexinfotech
-
 app: email-api
 service: my-service
 
